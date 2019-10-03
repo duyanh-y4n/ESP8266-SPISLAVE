@@ -1,0 +1,18 @@
+0.2.3
+  * SSL Client connection, verifySSL function, protocol 0.2.3
+0.2.1
+  * Blinking the builtin LED while in WifiManager mode and connecting
+  
+0.2.0
+  * New protocol, several new commands
+
+0.1.4 (2018-01-24)
+  * Added protocol versioning
+  * Added command for protocol version querying and soft reset
+  * Fixed MISO sgnal bad timing
+
+0.1.1 (2017-11-26)
+  * Fixed UDP communication
+
+0.1.0 (2017-03-14)
+  * First version for testing
