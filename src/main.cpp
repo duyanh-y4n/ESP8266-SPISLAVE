@@ -62,6 +62,8 @@
     #include <Ticker.h>                       
 #endif
 
+#define _DEBUG
+
 // Library version (format a.b.c)
 const char* VERSION = "0.2.3";
 // Protocol version (format a.b.c) 
@@ -186,10 +188,10 @@ void loop() {
 //        xt_wsr_ps(savedPS);  // sei();
 
 #ifdef _DEBUG    
-/*        Serial.print("gotData ");
+        Serial.print("gotData ");
             for (uint8_t i=0; i<32; ++i)
                 Serial.printf("%02x ", dataBuf[i]);
-        Serial.println();  */
+        Serial.println();
 #endif        
      
         WiFiSpiEspCommandProcessor::processCommand(dataBuf);
